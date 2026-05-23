@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lider Oto Lastik | Kars Lastik Tamiri ve Balans Hizmeti</title>
+    <!-- Google Font (Modern Yazı Tipi) -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome (İkonlar İçin) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Bizim Tasarım Dosyamız -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- SEMANTİK MENÜ ALANI -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#"><span>LİDER</span> OTO LASTİK</a>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#anasayfa">Anasayfa</a></li>
+                <li><a href="#hizmetler">Hizmetlerimiz</a></li>
+                <li><a href="#hakkimizda">Hakkımızda</a></li>
+                <li><a href="#iletisim" class="btn-iletisim">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO (GİRİŞ) ALANI -->
+        <section id="anasayfa" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-text">
+                    <h1>Kars'ta Güvenli Sürüşün Adresi</h1>
+                    <p>Profesyonel lastik değişimi, balans ayarı ve 7/24 yol yardım hizmetleriyle aracınız emin ellerde.</p>
+                    <a href="#iletisim" class="btn-main">Hemen Ara / Randevu Al</a>
+                </div>
+                <div class="hero-image-box">
+                    <img src="images/hero-lastik.png" alt="Lider Oto Lastik Sökme Takma Makinesi">
+                </div>
+            </div>
+        </section>
+
+        <!-- HİZMETLER (FLEXBOX GRID) ALANI -->
+        <section id="hizmetler" class="services-section">
+            <div class="section-title">
+                <h2>Hizmetlerimiz</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-tools"></i>
+                    <h3>Lastik Tamiri & Değişimi</h3>
+                    <p>Modern ekipmanlarımızla binek, ticari ve ziraat araçlarının lastik değişimlerini güvenle yapıyoruz.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-weight"></i>
+                    <h3>Balans Ayarı</h3>
+                    <p>Yüksek hızlarda titremeyi önleyen, sürüş konforunu ve lastik ömrünü artıran hassas balans ayarı.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-truck-pickup"></i>
+                    <h3>7/24 Yol Yardım</h3>
+                    <p>Yolda kaldığınızda bir telefonla yanınızdayız. Kars ve çevresinde hızlı mobil lastik servisi.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- HAKKIMIZDA ALANI -->
+        <section id="hakkimizda" class="about-section">
+            <div class="about-container">
+                <div class="about-image">
+                    <img src="images/dukkan-ic.png" alt="Lider Oto Lastik Dükkan İçi Görünüm">
+                </div>
+                <div class="about-text">
+                    <h2>Hakkımızda</h2>
+                    <p>Lider Oto Lastik olarak, Kars'ta dürüst esnaflık ve yüksek memnuniyet ilkesiyle hizmet veriyoruz. Traktörden binek araca kadar her segmentteki aracın lastik sökme, takma, yama ve balans işlemlerini profesyonel ustalıkla tamamlıyoruz. Teknolojik alt yapımız ve güler yüzlü hizmetimizle her zaman yanınızdayız.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ATÖLYE GALERİ ALANI -->
+        <section class="gallery-section">
+            <div class="section-title">
+                <h2>Atölyemizden Kareler</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <img src="images/hizmet-is.png" alt="Lider Oto Lastik Araç Bakım Esnası">
+                </div>
+            </div>
+        </section>
+
+        <!-- ÇALIŞAN İLETİŞİM FORMU ALANI -->
+        <section id="iletisim" class="contact-section">
+            <div class="section-title">
+                <h2>İletişim & Randevu</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Bizimle İletişime Geçin</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Kars Oto Sanayi Sitesi, Merkez/Kars</p>
+                    <p><i class="fas fa-phone-alt"></i> <a href="tel:+905000000000">0555 078 46 01</a></p>
+                    <p><i class="fas fa-clock"></i> Pzt - Cmt: 08:00 - 19:00</p>
+                </div>
+                <!-- Hoca Şartı: Gerçek Çalışan Form (Web3Forms Entegrasyonlu) -->
+                <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                    <input type="hidden" name="access_key" value="BURAYA-GELECEK-ANAHTAR">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Adınız Soyadınız" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" name="phone" placeholder="Telefon Numaranız" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Mesajınız veya Lastik Ebadınız (Örn: 205/55/R16)" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Mesaj Gönder</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER ALANI -->
+    <footer>
+        <p>&copy; 2026 Lider Oto Lastik. Tüm Hakları Saklıdır.</p>
+    </footer>
+
+    <!-- JAVASCRIPT DOSYAMIZ -->
+    <script src="js/script.js"></script>
+</body>
+</html>
